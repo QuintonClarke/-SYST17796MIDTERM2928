@@ -16,6 +16,7 @@ public class JavaApplication11 {
      * @param args the command line arguments
      */
     Seasons season;
+    String myStr;
     private boolean abc=true;
     public enum Seasons{
         FALL,
@@ -45,6 +46,12 @@ public class JavaApplication11 {
                 System.out.println("it is hot!");
                 break;
      }
+       public static boolean isSeason(myStr){
+           if (myStr == Season){
+               return true;
+           }
+           else return false;
+       }
     }
     public static void main(String[] args) {
        
